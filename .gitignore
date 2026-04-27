@@ -8,6 +8,60 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+
+# ==========================================
+# Safari-Safe-AI: Unified Gitignore
+# ==========================================
+
+# --- Java & Compiled Files ---
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# --- Build & Output Folders ---
+bin/
+out/
+target/
+build/
+gen/
+cmake-build-*/
+
+# --- IntelliJ IDEA (.idea) ---
+.idea/**
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# --- VS Code (.vscode) ---
+.vscode/**
+.project
+.classpath
+.settings/
+
+# --- Selenium & Drivers ---
+Selenium Jars and Drivers/
+LICENSE.chromedriver
+chromedriver.exe
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+# --- IntelliJ Specific Exclusions ---
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
